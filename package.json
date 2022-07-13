@@ -15,5 +15,9 @@
   "bugs": {
     "url": "https://github.com/lucasbf1992/project-ask/issues"
   },
-  "homepage": "https://github.com/lucasbf1992/project-ask#readme"
+  "homepage": "https://github.com/lucasbf1992/project-ask#readme",
+  "dependencies": {
+    "ejs": "^3.1.8",
+    "express": "^4.18.1"
+  }
 }
