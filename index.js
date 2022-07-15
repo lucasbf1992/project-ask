@@ -2,7 +2,10 @@ const express = require("express");
 const res = require("express/lib/response");
 const app = express();
 const bodyPaser = require('body-parser');
+
+
 const connection = require('./database/database');
+const askModel =  require('./database/Ask.js');
 
 connection
     .authenticate()
